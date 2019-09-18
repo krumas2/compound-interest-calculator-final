@@ -1,0 +1,141 @@
+
+html{
+	background-color: #F7F7F7;
+	height: 1000px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold 700;
+	font-size: 24px;
+	margin-left: 82px;
+	color: #333333;
+}
+
+.description{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:light 300;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-left: 82px;
+	margin-right: 320px;
+  padding-bottom: 75px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold 700;
+	font-size: 16px;
+	color: #333333;
+}
+
+hr {
+	border: 1px solid;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	color: #333333;
+}
+
+body {
+	padding-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:light 300;
+	font-size: 16px;
+	color: #333333;
+
+}
+body * {
+	box-sizing: border-box;
+}
+ul li {
+	margin-bottom: 10px;
+	list-style: none;
+	padding-bottom: 15px;
+
+
+}
+
+ul {
+	padding:0;
+}
+
+label{
+	display:block;
+	padding-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:light 300;
+	font-size: 16px;
+}
+
+.column {
+  float: left;
+  width: 200px;
+  padding: 0px;
+	margin-right: 0px;
+}
+
+.row{
+	margin-left: 230px;
+}
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
+
+section{
+	width: 200px;
+	margin-left: 100px;
+	margin-top: -5px;
+	line-height: 1.5em;
+}
+
+button{
+	width:200px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	background-color: black;
+	color: white;
+	padding: 6px 50px;
+	margin-top: 25px;
+	background-color: #333333;
+	transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #686868;
+  color: white;
+}
+
+
+.starting-bar,
+.contribution-bar,
+.return-bar,
+.final-bar {
+	height: 10px;
+}
+.starting-bar {
+	background-color: blue;
+}
+.contribution-bar {
+	background-color: gold;
+}
+.return-bar {
+	background-color: yellowgreen;
+}
+.final-bar {
+	background-color: green;
+}
+.doughnut {
+	height: 700px;
+	width: 700px;
+	margin-left:500px;
+}
